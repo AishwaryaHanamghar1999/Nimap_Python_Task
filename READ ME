@@ -1,0 +1,10 @@
+Clients:
+GET /clients/ - List all clients.
+POST /clients/ - Create a new client.
+GET /clients/<id>/ - Fetch client details and associated projects.
+PUT/PATCH /clients/<id>/ - Update a client.
+DELETE /clients/<id>/ - Delete a client.
+
+Projects:
+POST /clients/<id>/projects/ - Add a project to a client and assign users.
+GET /projects/ - List projects assigned to the logged-in user.
