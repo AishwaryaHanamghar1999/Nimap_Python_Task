@@ -8,3 +8,7 @@ DELETE /clients/<id>/ - Delete a client.
 Projects:
 POST /clients/<id>/projects/ - Add a project to a client and assign users.
 GET /projects/ - List projects assigned to the logged-in user.
+
+
+admin- user=aditi
+      password=aditi
